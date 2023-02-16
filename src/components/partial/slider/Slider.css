@@ -1,0 +1,24 @@
+.contentStyle {
+    margin: 0;
+    height:600px;
+    color:red;
+    line-height:160px;
+    text-align:center;
+}
+.contentStyle .slick-list, 
+.contentStyle .slick-track, 
+.contentStyle .slick-slide, 
+.contentStyle .slick-slide>div, 
+.sliderInner, 
+.sliderImg {
+    height: 100%;
+}
+.sliderImg{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}

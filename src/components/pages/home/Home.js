@@ -1,8 +1,9 @@
 import React from 'react'
+import Slider from '../../partial/slider/Slider'
 
 function Home() {
   return (
-    <div>Home</div>
+    <Slider />
   )
 }
 

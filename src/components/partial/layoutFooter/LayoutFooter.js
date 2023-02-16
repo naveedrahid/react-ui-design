@@ -20,7 +20,19 @@ const LayoutFooter = () => {
                         lg: 32,
                     }}
                 >
-                    <Col className="gutter-row" span={6}>
+                    <Col
+                        className="gutter-row"
+                        span={6}
+                        xs={{
+                            span: 24,
+                        }}
+                        sm={{
+                            span: 24,
+                        }}
+                        lg={{
+                            span: 6,
+                        }}
+                    >
                         <div className='widgets footerCtn'>
                             <img
                                 src={`${process.env.PUBLIC_URL}/upload/free-vector.jpg`}
@@ -47,7 +59,19 @@ const LayoutFooter = () => {
                             </div>
                         </div>
                     </Col>
-                    <Col className="gutter-row" span={6}>
+                    <Col
+                        className="gutter-row"
+                        span={6}
+                        xs={{
+                            span: 24,
+                        }}
+                        sm={{
+                            span: 24,
+                        }}
+                        lg={{
+                            span: 6,
+                        }}
+                    >
                         <div className='widgets footerMenu'>
                             <Typography.Title
                                 className='widgetTitle'
@@ -61,7 +85,19 @@ const LayoutFooter = () => {
                             />
                         </div>
                     </Col>
-                    <Col className="gutter-row" span={6}>
+                    <Col
+                        className="gutter-row"
+                        span={6}
+                        xs={{
+                            span: 24,
+                        }}
+                        sm={{
+                            span: 24,
+                        }}
+                        lg={{
+                            span: 6,
+                        }}
+                    >
                         <div className='widgets footerMenu'>
                             <Typography.Title
                                 className='widgetTitle'
@@ -75,7 +111,19 @@ const LayoutFooter = () => {
                             />
                         </div>
                     </Col>
-                    <Col className="gutter-row" span={6}>
+                    <Col
+                        className="gutter-row"
+                        span={6}
+                        xs={{
+                            span: 24,
+                        }}
+                        sm={{
+                            span: 24,
+                        }}
+                        lg={{
+                            span: 6,
+                        }}
+                    >
                         <div className='widgets footerMenu'>
                             <Typography.Title
                                 className='widgetTitle'
