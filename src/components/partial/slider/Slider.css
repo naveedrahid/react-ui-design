@@ -1,7 +1,6 @@
 .contentStyle {
     margin: 0;
     height:600px;
-    color:red;
     line-height:160px;
     text-align:center;
 }
@@ -21,4 +20,20 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
+}
+.contentStyle h4.ant-typography {
+    font-size: var(--fs-xxl);
+    color: var(--white);
+}
+.fsNormal{
+    font-size:var(--fs-normal) !important;
+    color: var(--white);
+}
+.primaryBtn {
+    border: solid 2px #fff;
+    background: transparent;
+    padding: 1.5rem 1rem;
+    line-height: 0px;
+    font-size: var(--fs-normal);
+    text-transform:var(--textUpper);
 }

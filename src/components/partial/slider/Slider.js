@@ -21,10 +21,10 @@ const Slider = () => {
                     >
                         Orange
                     </Typography.Title>
-                    <Paragraph>
+                    <Paragraph className='fsNormal'>
                         handmade bags
                     </Paragraph>
-                    <Button type="primary">Primary Button</Button>
+                    <Button type="primary" className='primaryBtn'>Primary Button</Button>
                 </div>
 
             </div>
@@ -36,10 +36,10 @@ const Slider = () => {
                     >
                         Orange
                     </Typography.Title>
-                    <Paragraph>
+                    <Paragraph className='fsNormal'>
                         handmade bags
                     </Paragraph>
-                    <Button type="primary">Primary Button</Button>
+                    <Button type="primary" className='primaryBtn'>Primary Button</Button>
                 </div>
 
             </div>
@@ -51,10 +51,10 @@ const Slider = () => {
                     >
                         Orange
                     </Typography.Title>
-                    <Paragraph>
+                    <Paragraph className='fsNormal'>
                         handmade bags
                     </Paragraph>
-                    <Button type="primary">Primary Button</Button>
+                    <Button type="primary" className='primaryBtn'>Primary Button</Button>
                 </div>
 
             </div>

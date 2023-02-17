@@ -1,3 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+body.home.page-templates,
+p{
+  font-family: 'PT Sans', sans-serif !important;
+  font-weight: normal !important;
+  font-size: 16px !important;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'PT Sans', sans-serif !important;
+  font-weight:700 !important;
+}
+:root{
+  --fs-normal:16px;
+  --fs-xs:20px;
+  --fs-sm:25px;
+  --fs-medium:30px;
+  --fs-large:40px;
+  --fs-xl:50px;
+  --fs-xxl:60px;
+  --white:#fff;
+  --textUpper:uppercase;
+}
+
 .App {
   text-align: center;
 }

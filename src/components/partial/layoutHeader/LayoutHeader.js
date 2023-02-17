@@ -7,7 +7,7 @@ const { Header } = Layout;
 const LayoutHeader = () => {
     const numrows = 20;
     return (
-        <Header id='header'>
+        <Header id='header' responsive={{ xs: false, sm: true }}>
             <div className='container'>
                 <Row align='middle'>
                     <Col
