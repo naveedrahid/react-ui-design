@@ -1,3 +1,18 @@
 header#header {
     background: transparent;
 }
+.iconNav {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.iconNav .navIconPostion span svg {
+    fill: #000000e0;
+    width: 20px;
+    height: 20px;
+}
+
+.iconNav .navIconPostion {
+    padding-left: 20px;
+}
