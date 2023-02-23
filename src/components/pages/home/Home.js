@@ -1,11 +1,10 @@
-import { Card, Col, Row, Typography } from 'antd';
+import { Card, Col, Row } from 'antd';
 import React from 'react';
 import Slider from '../../partial/slider/Slider';
 import { TabsFun } from './SlicesUtils';
 import './Home.css';
 
 const { Meta } = Card;
-const { Paragraph } = Typography;
 
 function Home() {
   return (
@@ -29,7 +28,7 @@ function Home() {
           >
             <Card className='servicesBox'>
               <Meta
-                avatar={<i class="fa-solid fa-truck-fast"></i>}
+                avatar={<i className="fa-solid fa-truck-fast"></i>}
                 title="Free Shipping"
                 description="Ut enim ad minim veniam liquip ami tomader"
               />
@@ -51,7 +50,7 @@ function Home() {
           >
             <Card className='servicesBox'>
               <Meta
-                avatar={<i class="fa-solid fa-shield-halved"></i>}
+                avatar={<i className="fa-solid fa-shield-halved"></i>}
                 title="Secure Payments"
                 description="Ut enim ad minim veniam liquip ami tomader"
               />
@@ -73,7 +72,7 @@ function Home() {
           >
             <Card className='servicesBox'>
               <Meta
-                avatar={<i class="fa-solid fa-rotate-left"></i>}
+                avatar={<i className="fa-solid fa-rotate-left"></i>}
                 title="Easy Returns"
                 description="Ut enim ad minim veniam liquip ami tomader"
               />
@@ -95,7 +94,7 @@ function Home() {
           >
             <Card className='servicesBox'>
               <Meta
-                avatar={<i class="fa-regular fa-clock"></i>}
+                avatar={<i className="fa-regular fa-clock"></i>}
                 title="24/7 Support"
                 description="Ut enim ad minim veniam liquip ami tomader"
               />
@@ -107,6 +106,7 @@ function Home() {
             <TabsFun />
           </Col>
         </Row>
+
       </div>
     </div>
   )
