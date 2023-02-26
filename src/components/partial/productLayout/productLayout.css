@@ -74,3 +74,35 @@
     bottom: 35%;
     transition: all 0.3s ease;
 }
+.productGrid {
+    margin-top: 1.5rem;
+}
+
+.productDetail .price {
+    margin-bottom: 0;
+}
+
+.productDetail .selectColor {
+    margin-top: 0.4rem;
+}
+.ant-tabs-centered .ant-tabs-nav:before {
+    display: none;
+}
+.collectionSlider .slick-slide .productGrid {
+    box-shadow: #b7acac5c -1px 1px 7px 0px;
+}
+
+.collectionSlider .slick-slide .productGrid .productThumnail img {
+    height: 400px;
+    object-position: center center;
+    object-fit: cover;
+    background-blend-mode: multiply;
+}
+
+.collectionSlider .slick-slide> div {
+    margin: 10px 10px;
+}
+
+.collectionSlider .slick-slide .productGrid .productDetail {
+    padding: 0rem 1rem 1rem 1rem;
+}

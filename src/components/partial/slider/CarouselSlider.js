@@ -10,7 +10,7 @@ const sliderImage = {
     img3: `/upload/slider-09.jpg`,
 };
 
-const Slider = () => {
+const CarouselSlider = () => {
     return (
         <Carousel className='contentStyle'>
             <div className='sliderInner'>
@@ -62,4 +62,4 @@ const Slider = () => {
     );
 };
 
-export default Slider;
+export default CarouselSlider;
