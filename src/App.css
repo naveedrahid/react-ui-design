@@ -31,6 +31,9 @@ h6 {
   --white: #fff;
   --textUpper: uppercase;
 }
+.uppercase{
+  text-transform: uppercase;
+}
 
 .App {
   text-align: center;

@@ -1,12 +1,18 @@
-import { Card, Col, Row, Typography } from 'antd';
+import { Button, Card, Col, Row, Typography } from 'antd';
 import React from 'react';
 import CarouselSlider from '../../partial/slider/CarouselSlider';
-import { TabsFun } from './SlicesUtils';
 import './Home.css';
 import { TopCollection } from '../../partial/productLayout/productLayout';
+import { TabsFun } from '../../utils/SlicesUtils';
 
 const { Meta } = Card;
 const { Paragraph } = Typography;
+
+// https://blueskytechco.com/rubix/fashion-02/?demo=8/
+// https://july.uxper.co/fashion07/
+// https://angular.pixelstrap.com/multikart/home/fashion-3
+// https://portotheme.com/html/molla/index-7.html
+// http://spab-rice.com/wordpress/kona/demo/
 
 function Home() {
   return (
@@ -105,6 +111,122 @@ function Home() {
                 description="Ut enim ad minim veniam liquip ami tomader"
               />
             </Card>
+          </Col>
+        </Row>
+        <Row gutter={16}>
+          <Col className="gutter-row"
+            span={8}
+            xs={{
+              span: 24,
+            }}
+            sm={{
+              span: 24,
+            }}
+            md={{
+              span: 8,
+            }}
+            lg={{
+              span: 8,
+            }}
+          >
+            <div
+              className='categoryBox'
+              style={{ background: `url(${process.env.PUBLIC_URL}/upload/mensjpg.jpg)` }}
+            >
+              <Paragraph
+                className='uppercase'
+              >
+                New Collection
+              </Paragraph>
+              <Typography.Title
+                level={3}
+                className='uppercase'
+              >
+                Shop Women's
+              </Typography.Title>
+              <Button
+                type="link"
+                className='btnUnderLine uppercase'
+              >
+                Shop Now
+              </Button>
+            </div>
+          </Col>
+          <Col className="gutter-row"
+            span={8}
+            xs={{
+              span: 24,
+            }}
+            sm={{
+              span: 24,
+            }}
+            md={{
+              span: 8,
+            }}
+            lg={{
+              span: 8,
+            }}
+          >
+            <div
+              className='categoryBox'
+              style={{ background: `url(${process.env.PUBLIC_URL}/upload/womens.jpg)` }}
+            >
+              <Paragraph
+                className='uppercase'
+              >
+                New Collection
+              </Paragraph>
+              <Typography.Title
+                level={3}
+                className='uppercase'
+              >
+                Shop Women's
+              </Typography.Title>
+              <Button
+                type="link"
+                className='btnUnderLine uppercase'
+              >
+                Shop Now
+              </Button>
+            </div>
+          </Col>
+          <Col className="gutter-row"
+            span={8}
+            xs={{
+              span: 24,
+            }}
+            sm={{
+              span: 24,
+            }}
+            md={{
+              span: 8,
+            }}
+            lg={{
+              span: 8,
+            }}
+          >
+            <div
+              className='categoryBox'
+              style={{ background: `url(${process.env.PUBLIC_URL}/upload/acessories.jpg)` }}
+            >
+              <Paragraph
+                className='uppercase'
+              >
+                New Collection
+              </Paragraph>
+              <Typography.Title
+                level={3}
+                className='uppercase'
+              >
+                Shop Women's
+              </Typography.Title>
+              <Button
+                type="link"
+                className='btnUnderLine uppercase'
+              >
+                Shop Now
+              </Button>
+            </div>
           </Col>
         </Row>
         <Row>

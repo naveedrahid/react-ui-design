@@ -37,3 +37,6 @@
     font-size: var(--fs-normal);
     text-transform:var(--textUpper);
 }
+.contentStyle ul.slick-dots.slick-dots-bottom li button:before {
+    display: none !important;
+}

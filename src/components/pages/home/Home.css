@@ -18,3 +18,73 @@
     font-size: 23px;
     line-height: 23px;
 }
+.contentStyle ul.slick-dots.slick-dots-bottom li button:before {
+    display: none !important;
+}
+
+.btnUnderLine {
+    padding: 0;
+    position: relative;
+    transition: all 0.4s ease;
+}
+
+.btnUnderLine:after {
+    content: '';
+    background: #000;
+    width: 50%;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transition: all 0.4s ease;
+}
+
+.categoryBox:hover .btnUnderLine:after {
+    width: 100%;
+    transition: all 0.4s ease;
+}
+
+.categoryBox {
+    transition: all 0.4s ease;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 300px;
+    background-position: center center !important;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 1;
+    position: relative;
+}
+.categoryBox:before {
+    content: '';
+    background: #0000004f;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s ease;
+}
+.categoryBox:hover:before {
+    transition: all 0.3s ease;
+    background: #00000061;
+}
+.categoryBox h3 {
+    margin-top: 0 !important;
+    color: #fff;
+}
+
+.categoryBox .ant-typography {
+    color: #fff;
+}
+
+.categoryBox .btnUnderLine:after {
+    background: #fff;
+}
+.categoryBox .btnUnderLine {
+    color: #fff;
+}

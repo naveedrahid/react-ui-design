@@ -1,6 +1,6 @@
 import { Button, Carousel, Typography } from 'antd';
 import React from 'react';
-import './Slider.css';
+import './CarouselSlider.css';
 
 const { Paragraph } = Typography;
 
