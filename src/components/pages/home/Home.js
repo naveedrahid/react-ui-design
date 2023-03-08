@@ -1,4 +1,4 @@
-import { Button, Card, Col, Row, Typography } from 'antd';
+import { Button, Card, Col, Form, Input, Row, Typography } from 'antd';
 import React from 'react';
 import CarouselSlider from '../../partial/slider/CarouselSlider';
 import './Home.css';
@@ -13,6 +13,13 @@ const { Paragraph } = Typography;
 // https://angular.pixelstrap.com/multikart/home/fashion-3
 // https://portotheme.com/html/molla/index-7.html
 // http://spab-rice.com/wordpress/kona/demo/
+
+const onFinish = (values) => {
+  console.log('Success:', values);
+};
+const onFinishFailed = (errorInfo) => {
+  console.log('Failed:', errorInfo);
+};
 
 function Home() {
   return (
@@ -275,8 +282,67 @@ function Home() {
             <TabsFun />
           </Col>
         </Row>
-
       </div>
+        <Row
+          className='subscriberBgImg'
+          justify="center"
+        >
+          <Col className="gutter-row bgWhite"
+            span={12}
+            xs={{
+              span: 24,
+            }}
+            sm={{
+              span: 24,
+            }}
+            md={{
+              span: 8,
+            }}
+            lg={{
+              span: 12,
+            }}
+          >
+            <Typography.Title
+              level={2}
+              className='uppercase'
+              align="center"
+            >
+              Subcribe To Our Newsletter
+            </Typography.Title>
+            <Paragraph
+              align="center"
+            >
+              Sign up for the weekly newsletter and build better ecommerce stores.
+            </Paragraph>
+
+            <Form
+              className='formSubscriber'
+              name="basic"
+              initialValues={{
+                remember: true,
+              }}
+              onFinish={onFinish}
+              onFinishFailed={onFinishFailed}
+              autoComplete="off"
+            >
+              <Form.Item
+                name="email"
+                rules={[
+                  {
+                    type: 'email',
+                    required: true,
+                    message: 'Please input your email',
+                  },
+                ]}
+              >
+                <Input placeholder='Enter Your Email' />
+              </Form.Item>
+              <Button type="primary" htmlType="submit">
+                Submit
+              </Button>
+            </Form>
+          </Col>
+        </Row>
     </div>
   )
 }
