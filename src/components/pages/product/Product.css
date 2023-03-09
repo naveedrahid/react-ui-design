@@ -1,0 +1,185 @@
+.chatCol {
+    display: flex;
+    background: rgb(21 48 76 / 85%);
+    align-items: center;
+    border-radius: 0px 10px 10px 0px;
+    justify-content: center;
+}
+
+.chatCol .chatWrapper {
+    max-width: 100%;
+    flex: 0 0 100%;
+    padding: 0px 50px;
+}
+
+.chatCol .chatWrapper .ant-alert {
+    background: transparent;
+    border: none;
+}
+
+.chatCol .chatWrapper .ant-alert button svg {
+    fill: #fe0000;
+    font-size: 15px;
+}
+
+.chatCol .chatWrapper .ant-alert button {
+    width: 30px;
+    height: 30px;
+    background: #284f78;
+    border-radius: 100%;
+}
+
+.chatCol .chatWrapper  .chatMessages {
+    position: relative;
+}
+
+.chatCol .chatWrapper .chatMessages .ant-alert:before {
+    content: '';
+    background: #79dd01;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: -10px;
+    top: 36%;
+    border-radius: 100%;
+}
+
+.chatForm form.ant-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chatForm form.ant-form .ant-form-item:nth-child(1) {flex-basis: 80%;max-width: 80%;}
+
+.chatForm form.ant-form .ant-form-item:nth-child(2) {
+    flex-basis: 20%;
+    max-width: 20%;
+    text-align: end;
+}
+
+.chatForm form.ant-form .ant-form-item button.ant-btn.ant-btn-primary {
+    width: 85%;
+    height: 60px;
+    background: #f21366;
+    border-radius: 30px;
+    font-size: 20px;
+    border: none;
+}
+
+.chatForm form.ant-form .ant-form-item input#username {
+    height: 60px;
+    background: transparent;
+    border: none;
+}
+.chatShow {
+    bottom: 0%;
+    display: flex;
+    width: 90%;
+    padding: 15px 10px 15px 20px;
+    align-items: center;
+    z-index: 10;
+    flex-direction: column;
+    height: 250px;
+    overflow-y: scroll;
+    position: absolute;
+    left: 6%;
+}
+
+.chatShow  .memberName {
+    font-weight: 700;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.chatShow .memberMessage {
+    font-size: 16px;
+}
+.videoBtn {
+    text-align: center;
+    width: 67%;
+    margin-bottom: 20px;
+}
+
+.videoBtn button.ant-btn {
+    margin: 10px 10px 0px;
+    border: none;
+    font-size: 20px;
+}
+.videoStreaming{
+    background: url('../../../../public/upload/Unsdsdtitled-1.png') no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+.videoCall  video {
+    border-radius: 10px 0px 0px 10px;
+    position: relative;
+    z-index: 1;
+}
+.chatShow .chatInner {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    padding: 15px 10px 15px 20px;
+    align-items: center;
+    background: #031d3829;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+
+.chatShow .chatInner div {
+    color: #fff;
+}
+
+.chatWrapper .ant-alert-message, .chatWrapper h2 {
+    color: #fff;
+}
+form.ant-form {
+    background: #031d38d1;
+    border-radius: 10px;
+}
+
+form.ant-form .ant-form-item {
+    margin: 0;
+    padding: 10px 10px;
+}
+input#username::placeholder {
+    color: #fff;
+}
+.chatShow::-webkit-scrollbar {
+    width: 10px;
+}
+.chatShow::-webkit-scrollbar-thumb {
+    background: transparent;
+    border-radius: 10px;
+}
+
+
+
+
+@media (max-width:1024px) {
+    .chatCol .chatWrapper {
+        padding: 0px 20px;
+    }
+}
+
+@media (max-width:991px) {
+    .chatShow {
+        padding: 15px 0px 15px 0px !important;
+    }
+    
+    .chatShow .memberName {
+        font-size: 16px;
+    }
+    
+    .memberMessage {
+        font-size: 13px !important;
+    }
+}
+
+@media (max-width:991px) {}
+
+@media (max-width:767px) {}
+
+@media (max-width:479px) {}

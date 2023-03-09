@@ -1,6 +1,6 @@
 .footerInner{
     padding:5rem 0rem 1rem 0rem;
-    background: transparent!important;
+    background: #f9f9f9!important;
 }
 .footerSocial a {
     width: 40px;
@@ -26,6 +26,7 @@
 .cardInformation {
     border: none;
     margin-bottom: 1rem;
+    background:transparent !important;
 }
 
 .cardInformation .ant-card-body {
@@ -53,4 +54,7 @@ ul.ant-menu.ant-menu-root {
 }
 .mtText {
     margin: 2rem 0rem 0rem 0rem !important;
+}
+.widgets.footerMenu ul {
+    background: transparent !important;
 }

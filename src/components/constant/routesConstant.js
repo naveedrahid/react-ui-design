@@ -1,6 +1,7 @@
 export const authenticatedRoutesConstant = {
     Home:'/',
     Product:'/product',
+    SingleProduct:'/product-detail',
 }
 export const subMenuRoutesConstant = {
     Tshirt:'/tshirt',

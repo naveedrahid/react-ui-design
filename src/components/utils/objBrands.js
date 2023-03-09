@@ -1,0 +1,26 @@
+export const brandSliderObj = [
+    {
+        id:1,
+        img:`${process.env.PUBLIC_URL}/upload/brand4.jpg`,
+    },
+    {
+        id:2,
+        img:`${process.env.PUBLIC_URL}/upload/brand222.jpg`,
+    },
+    {
+        id:3,
+        img:`${process.env.PUBLIC_URL}/upload/brand6.jpg`,
+    },
+    {
+        id:4,
+        img:`${process.env.PUBLIC_URL}/upload/brand333.jpg`,
+    },
+    {
+        id:5,
+        img:`${process.env.PUBLIC_URL}/upload/brand111.jpg`,
+    },
+    {
+        id:6,
+        img:`${process.env.PUBLIC_URL}/upload/brand5.jpg`,
+    }
+];
