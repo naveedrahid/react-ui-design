@@ -1,0 +1,66 @@
+.selectColor span.ant-radio-inner {
+    background-color: transparent !important;
+    border-color:transparent;
+    width: 20px;
+    height: 20px;
+}
+.selectColor span.ant-radio-inner:after {
+    transform: scale(0.7) !important;
+    opacity: 1 !important;
+    width: 20px;
+    height: 20px;
+    margin-block-start: -10px;
+    margin-inline-start: -10px;
+}
+.selectColor .ant-radio-wrapper-checked.color1 span.ant-radio-inner {
+    border-color: #a78bfa !important;    
+}
+.selectColor .color1 span.ant-radio-inner:after {
+    background: #a78bfa;
+}
+.selectColor .ant-radio-wrapper-checked.color2 span.ant-radio-inner {
+    border-color: #facc15 !important;    
+}
+.selectColor .color2 span.ant-radio-inner:after {
+    background: #facc15;
+}
+.selectColor .ant-radio-wrapper-checked.color3 span.ant-radio-inner {
+    border-color: #fb923c !important;    
+}
+.selectColor .color3 span.ant-radio-inner:after {
+    background: #fb923c;
+}
+.selectColor .ant-radio-wrapper-checked.color4 span.ant-radio-inner {
+    border-color: #4ade80 !important;    
+}
+.selectColor .color4 span.ant-radio-inner:after {
+    background: #4ade80;
+}
+.sliderNav1 .productThumnail img {
+    height: 740px;
+    object-fit: cover;
+}
+.sliderNav2 .productThumnail img {
+    height: 140px;
+    object-fit: cover;
+}
+
+.sliderNav2 .productThumnail {
+    padding: 0px 4px;
+}
+
+.sliderNav2 {
+    margin-top: 20px;
+}
+.stock span {
+    background: #52c41a;
+    color: #fff;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.information {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

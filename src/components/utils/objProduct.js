@@ -84,7 +84,6 @@ export const womenProduct = [
         colors: ["red", "green", "gray", "blue"]
     }
 ];
-
 export const menProducts = [
     {
         id: 1,
@@ -199,5 +198,71 @@ export const accessories = [
         image: `${process.env.PUBLIC_URL}/upload/acs8.jpg`,
         price: 199,
         colors: ["red", "green", "gray", "blue"]
+    },
+];
+export const productDetailObj = [
+    {
+        id: 1,
+        name: "Product 1",
+        image: `${process.env.PUBLIC_URL}/upload/m1.jpg`,
+        price: 199,
+        colors: ["red", "green", "gray", "blue"],
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vulputate leo ac ligula lacinia rhoncus. Vivamus accumsan orci sem, aliquet consequat elit molestie et.'
+    },
+    {
+        id: 2,
+        name: "Product 2",
+        image: `${process.env.PUBLIC_URL}/upload/m2.jpg`,
+        price: 199,
+        colors: ["red", "green", "gray", "blue"],
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vulputate leo ac ligula lacinia rhoncus. Vivamus accumsan orci sem, aliquet consequat elit molestie et.'
+    },
+    {
+        id: 3,
+        name: "Product 3",
+        image: `${process.env.PUBLIC_URL}/upload/m3.jpg`,
+        price: 199,
+        colors: ["red", "green", "gray", "blue"],
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vulputate leo ac ligula lacinia rhoncus. Vivamus accumsan orci sem, aliquet consequat elit molestie et.'
+    },
+    {
+        id: 4,
+        name: "Product 4",
+        image: `${process.env.PUBLIC_URL}/upload/m4.jpg`,
+        price: 199,
+        colors: ["red", "green", "gray", "blue"],
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vulputate leo ac ligula lacinia rhoncus. Vivamus accumsan orci sem, aliquet consequat elit molestie et.'
+    },
+    {
+        id: 5,
+        name: "Product 5",
+        image: `${process.env.PUBLIC_URL}/upload/m5.jpg`,
+        price: 199,
+        colors: ["red", "green", "gray", "blue"],
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vulputate leo ac ligula lacinia rhoncus. Vivamus accumsan orci sem, aliquet consequat elit molestie et.'
+    },
+    {
+        id: 6,
+        name: "Product 6",
+        image: `${process.env.PUBLIC_URL}/upload/m6.png`,
+        price: 199,
+        colors: ["red", "green", "gray", "blue"],
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vulputate leo ac ligula lacinia rhoncus. Vivamus accumsan orci sem, aliquet consequat elit molestie et.'
+    },
+    {
+        id: 7,
+        name: "Product 7",
+        image: `${process.env.PUBLIC_URL}/upload/m7.jpg`,
+        price: 199,
+        colors: ["red", "green", "gray", "blue"],
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vulputate leo ac ligula lacinia rhoncus. Vivamus accumsan orci sem, aliquet consequat elit molestie et.'
+    },
+    {
+        id: 8,
+        name: "Product 8",
+        image: `${process.env.PUBLIC_URL}/upload/m8.png`,
+        price: 199,
+        colors: ["red", "green", "gray", "blue"],
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vulputate leo ac ligula lacinia rhoncus. Vivamus accumsan orci sem, aliquet consequat elit molestie et.'
     },
 ];

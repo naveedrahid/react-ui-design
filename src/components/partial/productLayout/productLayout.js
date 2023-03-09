@@ -4,7 +4,8 @@ import { SyncOutlined, HeartOutlined, ShoppingCartOutlined } from '@ant-design/i
 import './productLayout.css';
 import Slider from "react-slick";
 import { Link } from 'react-router-dom';
-import { accessories, menProducts, womenProduct } from './objProduct';
+import { authenticatedRoutesConstant } from '../../constant/routesConstant';
+import { accessories, menProducts, womenProduct } from '../../utils/objProduct';
 
 const { Paragraph } = Typography;
 
@@ -78,7 +79,7 @@ export const ProductLayout = (props) => {
                                 className='productTitle'
                                 level={4}
                             >
-                                <Link to={'/'}>{product.name}</Link>
+                                <Link to={authenticatedRoutesConstant.SingleProduct}>{product.name}</Link>
                             </Typography.Title>
                             <Paragraph className='price'>
                                 ${product.price.toFixed(2)}
