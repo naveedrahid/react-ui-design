@@ -59,8 +59,28 @@
     padding: 5px 10px;
 }
 
-.information {
+.productDetailWrapper .information {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom:20px;
+}
+.productDetailWrapper .addToCartBtn {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.productDetailWrapper .addToCartBtn .QtyNum {
+    margin-right: 40px;
+}
+
+.productDetailWrapper .addToCartBtn .QtyNum span {
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+.productDetailWrapper .addToCartBtn .QtyNum {
+    display: flex;
+    align-items: self-start;
 }

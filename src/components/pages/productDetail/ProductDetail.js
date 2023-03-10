@@ -1,11 +1,16 @@
-import { Badge, Col, Radio, Rate, Row, Typography } from "antd";
+import { Badge, Button, Col, InputNumber, Radio, Rate, Row, Typography } from "antd";
 import React, { useEffect, useState, useRef } from "react";
+import { ShoppingCartOutlined } from '@ant-design/icons';
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
 import { productDetailObj } from "../../utils/objProduct";
 import './ProductDetail.css';
 
-const { Title, Paragraph } = Typography;
+const { Paragraph } = Typography;
+
+const qntyOnChange = (value) => {
+    console.log('changed', value);
+}
 
 const ProductDetail = () => {
 
@@ -136,11 +141,35 @@ const ProductDetail = () => {
                                 <span>Price:</span> ${productDetailObj[0].desc}
                             </Paragraph>
                             <div className='selectColor'>
-                                <Radio.Group onChange={selectVariationHandler} value={selectVariation}>
+                                <span>Colors: </span>
+                                <Radio.Group
+                                    onChange={selectVariationHandler}
+                                    value={selectVariation}
+                                >
                                     {productDetailObj[0].colors.map((color, index) => (
                                         <Radio key={index} value={color + productDetailObj.id} className={`color${index + 1}`} />
                                     ))}
                                 </Radio.Group>
+                            </div>
+                            <div className='addToCartBtn'>
+                                <div className='QtyNum'>
+                                    <span>Qty: </span>
+                                    <InputNumber
+                                        min={1}
+                                        max={10}
+                                        defaultValue={1}
+                                        onChange={qntyOnChange}
+                                    />
+                                </div>
+                                <div className='btnCart'>
+                                    <Button
+                                        type="primary"
+                                        shape="default"
+                                        icon={<ShoppingCartOutlined />}
+                                    >
+                                        ADD TO CART
+                                    </Button>
+                                </div>
                             </div>
                         </div>
                     </Col>
