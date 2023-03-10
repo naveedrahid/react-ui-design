@@ -90,11 +90,13 @@
 }
 .formSubscriber {
     display: flex;
+    background: transparent !important;
     justify-content: space-between;
 }
 
 .formSubscriber .ant-form-item {
     margin: 0;
+    padding: 0 !important;
     flex: 0 0 85%;
 }
 

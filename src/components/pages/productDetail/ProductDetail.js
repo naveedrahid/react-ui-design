@@ -138,7 +138,7 @@ const ProductDetail = () => {
                                 <span>Price:</span> ${productDetailObj[0].price.toFixed(2)}
                             </Paragraph>
                             <Paragraph className='shortDesc'>
-                                {productDetailObj[0].desc}
+                                <span>Price:</span> ${productDetailObj[0].desc}
                             </Paragraph>
                             <div className='selectColor'>
                                 <span>Colors: </span>
@@ -169,7 +169,7 @@ const ProductDetail = () => {
                                     >
                                         ADD TO CART
                                     </Button>
-                                </div> 
+                                </div>
                             </div>
                         </div>
                     </Col>

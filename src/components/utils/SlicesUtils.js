@@ -1,7 +1,9 @@
 import { Tabs } from "antd";
 import React from 'react';
 import { ProductLayout } from "../partial/productLayout/productLayout";
+
 export const TabsFun = () => {
+    
     const categoryName = [
         {
             cat_name: 'Mens'

@@ -4,7 +4,7 @@ import { authenticatedRoutesConstant, footerRoutesConstant } from '../constant/r
 import MasterLayout from '../masterLayout/MasterLayout';
 import Home from '../pages/home/Home';
 import Product from '../pages/product/Product';
-import ProductDetail from '../pages/productDetail/productDetail';
+import ProductDetail from '../pages/productDetail/ProductDetail';
 
 const AuthenticatedRoute = () => {
     return (
